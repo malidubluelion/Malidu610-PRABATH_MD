@@ -3,32 +3,32 @@ if (fs.existsSync('config.env')) require('dotenv').config({ path: __dirname+'/co
 
 
 //═══════[Required Variables]════════\\
-global.owner = process.env.OWNER_NUMBER.split(",Malidu_Hansana")
-global.mongodb = process.env.MONGODB_URI || ""
+global.owner = process.env.OWNER_NUMBER.split("Malidu_Hansana")
+global.mongodb = process.env.MONGODB_URI || "mongodb://uczv5j5giubjvx3d4s6p:1BVTujy9IO71SDd3vyQ6@n1-c2-mongodb-clevercloud-customers.services.clever-cloud.com:27017,n2-c2-mongodb-clevercloud-customers.services.clever-cloud.com:27017/bgij7uojfg3j2s3"
 global.port= process.env.PORT || 5000
 global.email = 'sam@sec.live'
-global.github = 'https://github.com/prabathLK/PRABATH-MD'
+global.github = 'https://github.com/prabathLK/maliduhansana610'
 global.location = 'Sultanpur IN'
-global.gurl = 'https://instagram.com/' // add your username
-global.sudo = process.env.SUDO || '94762280384'
-global.devs = '94762280384';
-global.website = 'https://github.com/prabathLK/PRABATH-MD' //wa.me/+94762280384
-global.THUMB_IMAGE = process.env.THUMB_IMAGE || 'https://i.imgur.com/H062oEI.jpeg'
+global.gurl = 'https://instagram.com/maliduhansana6254' // add your username
+global.sudo = process.env.SUDO || '94772356258'
+global.devs = '94772356258';
+global.website = 'https://github.com/prabathLK/maliduhansana' //wa.me/+94762280384
+global.THUMB_IMAGE = process.env.THUMB_IMAGE || 'https://telegra.ph/file/48bfd8ccde49643b3ffb9.jpg'
 module.exports = {
-  botname: process.env.BOT_NAME || '𝐒𝐞𝐜𝐤𝐭𝐨𝐫 𝐁𝐨𝐭𝐭𝐨',
+  botname: process.env.BOT_NAME || 'Malidu Hansana',
   autosticker: process.env.AUTO_STICKER || 'false',
   autovoice: process.env.AUTO_VOICE || 'false',
   botapikey: process.env.BOTCAHX_API || '',
-  alivepic: process.env.ALIVE_IMG || 'https://telegra.ph/file/ad25b2227fa2a1a01b707.jpg',
-  alivemsj: process.env.ALIVE_MSJ || '*The bot developer is prabath* 🎊',
-  ownername:process.env.OWNER_NAME || 'PRABATH',
-  sessionName: process.env.SESSION_ID || 'PUT-HERE',
-  author: process.env.PACK_INFO.split(";")[0] || 'author', 
+  alivepic: process.env.ALIVE_IMG || 'https://telegra.ph/file/48bfd8ccde49643b3ffb9.jpg',
+  alivemsj: process.env.ALIVE_MSJ || '*The bot developed by Malidu* 🎊',
+  ownername:process.env.OWNER_NAME || 'MALIDU',
+  sessionName: process.env.SESSION_ID || 'PRABATH-MD::UFJBQkFUSC1NRDo6c2Vzc2lvbl9yYV8xNTBjMTQ4MGI5MjIwNl92aTo6QWxlcnRQbHVtYmluZwo6OjM4YmFiNmZjMzMxN2NiMTA5MmUxOTZmNGU2MA==',
+  author: process.env.PACK_INFO.split(";")[0] || 'MALIDUHANSANA', 
   auto_read_status : process.env.AUTO_READ_STATUS || 'false',
   packname: process.env.PACK_INFO.split(";")[1] || 'Name',
-  autoreaction: process.env.AUTO_REACTION || 'off',
+  autoreaction: process.env.AUTO_REACTION || 'on',
   antibadword : process.env.ANTI_BAD_WORD || 'nobadwordokey',
-  alwaysonline: process.env.ALWAYS_ONLINE || 'false',
+  alwaysonline: process.env.ALWAYS_ONLINE || 'true',
   antifake : process.env.FAKE_COUNTRY_CODE || '',
   readmessage: process.env.READ_MESSAGE || true,
   HANDLERS: process.env.PREFIX || ['.'],

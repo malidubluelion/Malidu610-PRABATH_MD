@@ -1,6 +1,6 @@
   <p align="center">  
   <a href="https://telegra.ph/file/48bfd8ccde49643b3ffb9.jpg">
-    <img alt="secktor docs" height="300" src="https://i.ibb.co/7YGn5qS/20230305-135924.jpg">
+    <img alt="secktor docs" height="300" src="https://telegra.ph/file/48bfd8ccde49643b3ffb9.jpg">
     <h1 align="center"> MaliduHansana-MD </h1>
   </a>
 </p>  
